@@ -1,0 +1,9 @@
+﻿src/components/ui/Button.tsx(1,17): error TS1484: 'ButtonHTMLAttributes' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/ui/Input.tsx(1,17): error TS1484: 'InputHTMLAttributes' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/features/auth/Login.tsx(1,8): error TS6133: 'React' is declared but its value is never read.
+src/lib/queryClient.ts(7,7): error TS2353: Object literal may only specify known properties, and 'cacheTime' does not exist in type 'OmitKeyof<QueryObserverOptions<unknown, Error, unknown, unknown, readonly unknown[], never>, "suspense" | "queryKey", "strictly">'.
+src/mock/users.ts(1,10): error TS1484: 'User' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/store/useAuthStore.ts(3,10): error TS1484: 'User' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/store/useCartStore.ts(3,10): error TS1484: 'CartItem' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/store/useCartStore.ts(17,11): error TS6133: 'get' is declared but its value is never read.
+src/utils/cn.ts(1,1): error TS6133: 'React' is declared but its value is never read.
